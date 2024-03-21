@@ -57,9 +57,9 @@
 	"foreignKeys": [],
 	"name": "bt_chargestable",
 	"description": null,
-	"ver": "24.2.21.1148",
+	"ver": "24.3.21.1558",
 	"enableAudit": false,
-	"includeDataInPackage": false,
+	"includeDataInPackage": true,
 	"package": "df1dd82c-3bcf-ee11-85f9-0022489e2ecd",
 	"rolesRead": [],
 	"rolesWrite": []
