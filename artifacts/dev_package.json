@@ -1,0 +1,92 @@
+{
+	"id": "df1dd82c-3bcf-ee11-85f9-0022489e2ecd",
+	"createdAt": "2024-02-19T15:25:56.730Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"git": {
+		"remote": "https://github.com/DVieiraNeptSoft/BT_POC"
+	},
+	"name": "BT_POC",
+	"description": null,
+	"ver": "24.3.21.1441",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "bd7128f3-3ccf-ee11-85f9-0022489e2ecd",
+			"application": "bt_cover",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "DF1DD82C-3BCF-EE11-85F9-0022489E2ECD"
+			}
+		}
+	],
+	"api": [
+		{
+			"id": "fb9a9956-9ed0-ee11-85f9-0022489e2ecd",
+			"name": "API bt_chargestable",
+			"description": null,
+			"apiGroup": null
+		}
+	],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [
+		{
+			"id": "f1698f4c-9ed0-ee11-85f9-0022489e2ecd",
+			"name": "bt_chargestable",
+			"description": null
+		}
+	],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [
+		{
+			"id": "e2b5442d-3ccf-ee11-85f9-0022489e2ecd",
+			"description": null,
+			"name": "bt_landingPageApp"
+		},
+		{
+			"id": "b7256ef1-3bcf-ee11-85f9-0022489e2ecd",
+			"description": null,
+			"name": "bt_tileApp"
+		}
+	],
+	"category": [
+		{
+			"id": "dbe0e105-3ccf-ee11-85f9-0022489e2ecd",
+			"description": null,
+			"name": "BT_demoapps"
+		},
+		{
+			"id": "2a98771c-3ccf-ee11-85f9-0022489e2ecd",
+			"description": null,
+			"name": "BT_landingPage"
+		}
+	],
+	"launchpad": [
+		{
+			"id": "21fbf59b-48cf-ee11-85f9-0022489e2ecd",
+			"name": "bt_launchpad",
+			"description": null
+		}
+	],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [],
+	"events": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
+}

@@ -1,0 +1,103 @@
+.rowBackground {
+  background: linear-gradient(rgb(169, 194, 230) 1%, rgb(255, 255, 255) 100%) !important;
+}
+
+.hboxMargin {
+  margin-left: 140px;
+}
+
+.bt_cards {
+  display: flex;
+  border-radius: 12px;
+  box-shadow: 3px 10px 10px rgba(85, 20, 180, 0.2), inset 3px 3px 20px rgba(255, 110, 255, 0.1);
+  margin-right: 1rem;
+  margin-bottom: 2rem;
+}
+
+.bt_cards:hover {
+  background: #fff !important;
+  box-shadow: 0 0 29px rgba(255, 110, 255, 0.6), inset 3px 3px 20px rgba(255, 110, 255, 0.1) !important;
+  text-decoration: none !important;
+  overflow: hidden;
+}
+
+.bt_cards_icon {
+  margin-bottom: 2rem;
+}
+
+.bt_cards_icon:hover {
+  transform: scale(1.2) !important;
+  transition: 0.5s ease-in-out !important;
+}
+
+.bt_FlexBoxBackground {
+  background: rgb(255, 255, 255);
+}
+
+.FlexBoxCorporateofficecateringservices {
+  background-color: #ffffff;
+  height: 500px;
+  font-size: 16px;
+  letter-spacing: 1.7px;
+  line-height: 1.25;
+  color: #000;
+  font-family: jlr_emeric_extralight;
+}
+
+.FlexBoxCorporateofficeFirst {
+  background-color: #e8e8e8;
+  height: 500px;
+  font-size: 16px;
+  letter-spacing: 1.7px;
+  line-height: 1.25;
+  color: #000;
+  font-family: jlr_emeric_extralight;
+}
+
+.FlexBoxCorporateofficeSecond {
+  background-color: #414042;
+  height: 150px;
+  font-size: 16px;
+  letter-spacing: 1.7px;
+  line-height: 1.25;
+  color: #fff;
+  font-family: jlr_emeric_extralight;
+}
+
+.FlexBoxPeopleplanetfriendlyservices {
+  background-color: #e8e8e8;
+  height: 500px;
+  font-size: 16px;
+  letter-spacing: 1.7px;
+  line-height: 1.25;
+  color: #000;
+  font-family: jlr_emeric_extralight;
+}
+
+.ButtonGetintouch {
+  background-color: transparent;
+  color: #000;
+  border-color: #000;
+  border-radius: 0px;
+  width: 150px;
+  font-family: jlr_emeric_extralight;
+}
+.ButtonGetintouch:hover {
+  background-color: white;
+  border-color: #000;
+  color: #000;
+}
+
+.imageMain {
+  margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+  .FlexBoxCorporateofficecateringservices {
+    background-color: rgb(22, 92, 125);
+    height: 600px;
+  }
+  .FlexBoxKeytoyourcompanyculture {
+    background-color: rgb(242, 198, 207);
+  }
+}

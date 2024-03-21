@@ -1,0 +1,66 @@
+{
+	"id": "f1698f4c-9ed0-ee11-85f9-0022489e2ecd",
+	"createdAt": "2024-02-21T09:48:04.746Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"fields": [
+		{
+			"id": "955a9f0c-c5d9-43e9-af59-78069bdae91c",
+			"fieldName": "customerID",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "9b2fb903-43b6-4386-dc8f-2767a2a9ad41",
+			"fieldName": "customerChargePackageID",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "e5cd1621-2516-4131-c5f0-23e01f842292",
+			"fieldName": "customerChargePackageName",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "f210aeff-b4a9-47e0-96cd-cb02f8cb7d82",
+			"fieldName": "customerChargePackageDescription",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "58dc1240-a0c4-4c9e-9f07-d87a122412b0",
+			"fieldName": "customerChargePackagePrice",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "9e4ae76f-c106-44f1-f144-fad1f936272a",
+			"fieldName": "customerChargePackageUsage",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "9b9adfb3-b782-4c70-9565-c5bb851b21a4",
+			"fieldName": "customerChargePackageDate",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "bt_chargestable",
+	"description": null,
+	"ver": "24.2.21.1148",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "df1dd82c-3bcf-ee11-85f9-0022489e2ecd",
+	"rolesRead": [],
+	"rolesWrite": []
+}

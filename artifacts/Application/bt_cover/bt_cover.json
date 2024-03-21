@@ -1,0 +1,702 @@
+{
+	"id": "bd7128f3-3ccf-ee11-85f9-0022489e2ecd",
+	"createdAt": "2024-02-19T15:38:41.440Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"objects": [
+		{
+			"fieldNo": "f6d34db4-cb71-48cc-89b1-14f31781daa6",
+			"fieldName": "FlexBoxContainer",
+			"fieldParent": 0,
+			"fieldType": "sap.m.FlexBox",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [
+				{
+					"attribute": "width",
+					"grouping": "Properties",
+					"value": "100%",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "renderType",
+					"grouping": "Properties",
+					"value": "Bare",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "fitContainer",
+					"grouping": "Properties",
+					"value": "true",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "direction",
+					"grouping": "Properties",
+					"value": "Column",
+					"script": "",
+					"translation": []
+				}
+			],
+			"data": [
+				{
+					"fieldNo": "6ae71e3b-4faf-4d97-dd5a-a69f9b2a67b8",
+					"fieldName": "FlexBox",
+					"fieldParent": "f6d34db4-cb71-48cc-89b1-14f31781daa6",
+					"fieldType": "sap.m.FlexBox",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "width",
+							"grouping": "Properties",
+							"value": "100%",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "renderType",
+							"grouping": "Properties",
+							"value": "Bare",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "fitContainer",
+							"grouping": "Properties",
+							"value": "true",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "direction",
+							"grouping": "Properties",
+							"value": "Column",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "8d627e55-26e9-4dab-857e-f5f0c1f5edc1",
+							"fieldName": "Image1",
+							"fieldParent": "6ae71e3b-4faf-4d97-dd5a-a69f9b2a67b8",
+							"fieldType": "sap.m.Image",
+							"script": "",
+							"customComponent": false,
+							"bindingType": "h",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "width",
+									"grouping": "Properties",
+									"value": "100%",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "styleClass",
+									"grouping": "Properties",
+									"value": "imageMain",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "src",
+									"grouping": "Properties",
+									"value": "/media/root/Daniel/bt_cover1.png",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "height",
+									"grouping": "Properties",
+									"value": "100%",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
+						}
+					]
+				},
+				{
+					"fieldNo": "76ce0908-2603-48b2-b0ef-ab574acd6f4a",
+					"fieldName": "Row",
+					"fieldParent": "f6d34db4-cb71-48cc-89b1-14f31781daa6",
+					"fieldType": "nep.bootstrap.Row",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "styleClass",
+							"grouping": "Properties",
+							"value": "rowBackground",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "0f7ca1d6-96ea-4232-daec-093ad8557b9f",
+							"fieldName": "Column1",
+							"fieldParent": "76ce0908-2603-48b2-b0ef-ab574acd6f4a",
+							"fieldType": "nep.bootstrap.Col",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": [
+								{
+									"fieldNo": "64a8b58a-8f44-40d8-c142-23266649f26c",
+									"fieldName": "HBox",
+									"fieldParent": "0f7ca1d6-96ea-4232-daec-093ad8557b9f",
+									"fieldType": "sap.m.HBox",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "styleClass",
+											"grouping": "Properties",
+											"value": "hboxMargin",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "0b6cf368-c78e-43ef-d006-ceabe6e224f8",
+											"fieldName": "Card",
+											"fieldParent": "64a8b58a-8f44-40d8-c142-23266649f26c",
+											"fieldType": "sap.f.Card",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "width",
+													"grouping": "Properties",
+													"value": "232px",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "height",
+													"grouping": "Properties",
+													"value": "266px",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "styleClass",
+													"grouping": "Properties",
+													"value": "bt_cards",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "1aa0df7e-0bb0-4ff4-c93e-4f707d7a3c07",
+													"fieldName": "VBox",
+													"fieldParent": "0b6cf368-c78e-43ef-d006-ceabe6e224f8",
+													"fieldType": "sap.m.VBox",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "justifyContent",
+															"grouping": "Properties",
+															"value": "Center",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "alignItems",
+															"grouping": "Properties",
+															"value": "Center",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "fd9cd51e-6656-4249-e8fc-284107c6ccb0",
+															"fieldName": "Image3",
+															"fieldParent": "1aa0df7e-0bb0-4ff4-c93e-4f707d7a3c07",
+															"fieldType": "sap.m.Image",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "styleClass",
+																	"grouping": "Properties",
+																	"value": "bt_cards_icon",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "src",
+																	"grouping": "Properties",
+																	"value": "/media/root/Daniel/broadband-icon.svg",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "height",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "dbbc1525-1ed9-4bc0-b9b4-e573023099d9",
+															"fieldName": "FormattedTextBT",
+															"fieldParent": "1aa0df7e-0bb0-4ff4-c93e-4f707d7a3c07",
+															"fieldType": "sap.m.FormattedText",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"fieldNo": "05ce8fc7-e298-47a5-95b5-06b54b065238",
+											"fieldName": "Card1",
+											"fieldParent": "64a8b58a-8f44-40d8-c142-23266649f26c",
+											"fieldType": "sap.f.Card",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "width",
+													"grouping": "Properties",
+													"value": "232px",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "height",
+													"grouping": "Properties",
+													"value": "266px",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "styleClass",
+													"grouping": "Properties",
+													"value": "bt_cards",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "d345c965-d8f8-4a6e-b5b4-d2f224e8570c",
+													"fieldName": "VBox1",
+													"fieldParent": "05ce8fc7-e298-47a5-95b5-06b54b065238",
+													"fieldType": "sap.m.VBox",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "justifyContent",
+															"grouping": "Properties",
+															"value": "Center",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "alignItems",
+															"grouping": "Properties",
+															"value": "Center",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "409120df-89dc-4432-9099-a6db340fa2b9",
+															"fieldName": "Image2",
+															"fieldParent": "d345c965-d8f8-4a6e-b5b4-d2f224e8570c",
+															"fieldType": "sap.m.Image",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "styleClass",
+																	"grouping": "Properties",
+																	"value": "bt_cards_icon",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "src",
+																	"grouping": "Properties",
+																	"value": "/media/root/Daniel/flex-tv.svg",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "height",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "bd35ebe1-0c84-4491-c077-88e97ef3fa82",
+															"fieldName": "FormattedTextBT2",
+															"fieldParent": "d345c965-d8f8-4a6e-b5b4-d2f224e8570c",
+															"fieldType": "sap.m.FormattedText",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"fieldNo": "8886676e-88b7-495e-adda-cae59a984b1e",
+											"fieldName": "Card2",
+											"fieldParent": "64a8b58a-8f44-40d8-c142-23266649f26c",
+											"fieldType": "sap.f.Card",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "width",
+													"grouping": "Properties",
+													"value": "232px",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "height",
+													"grouping": "Properties",
+													"value": "266px",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "styleClass",
+													"grouping": "Properties",
+													"value": "bt_cards",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "7733ab10-f3fb-4357-a3ff-6dc1c7ee3f8f",
+													"fieldName": "VBox2",
+													"fieldParent": "8886676e-88b7-495e-adda-cae59a984b1e",
+													"fieldType": "sap.m.VBox",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "justifyContent",
+															"grouping": "Properties",
+															"value": "Center",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "alignItems",
+															"grouping": "Properties",
+															"value": "Center",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "45a416a9-8e24-4f8b-873e-5aa2f30f3f90",
+															"fieldName": "Image4",
+															"fieldParent": "7733ab10-f3fb-4357-a3ff-6dc1c7ee3f8f",
+															"fieldType": "sap.m.Image",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "styleClass",
+																	"grouping": "Properties",
+																	"value": "bt_cards_icon",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "src",
+																	"grouping": "Properties",
+																	"value": "/media/root/Daniel/bt-logo.svg",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "height",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "86c503a3-852e-43b4-ab07-c1c7803b1c3b",
+															"fieldName": "FormattedTextBT3",
+															"fieldParent": "7733ab10-f3fb-4357-a3ff-6dc1c7ee3f8f",
+															"fieldType": "sap.m.FormattedText",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"fieldNo": "12e48739-9985-471c-a363-d87c79521b3b",
+					"fieldName": "FlexBox1",
+					"fieldParent": "f6d34db4-cb71-48cc-89b1-14f31781daa6",
+					"fieldType": "sap.m.FlexBox",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "width",
+							"grouping": "Properties",
+							"value": "100%",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "fitContainer",
+							"grouping": "Properties",
+							"value": "true",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "direction",
+							"grouping": "Properties",
+							"value": "Column",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "backgroundDesign",
+							"grouping": "Properties",
+							"value": "Solid",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "12b3f07a-e079-4d49-fbbf-18012e1a64c8",
+							"fieldName": "Image",
+							"fieldParent": "12e48739-9985-471c-a363-d87c79521b3b",
+							"fieldType": "sap.m.Image",
+							"script": "",
+							"customComponent": false,
+							"bindingType": "h",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "width",
+									"grouping": "Properties",
+									"value": "100%",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "src",
+									"grouping": "Properties",
+									"value": "/media/root/Daniel/bt_cover2.png",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "height",
+									"grouping": "Properties",
+									"value": "100%",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "ee907b22-528b-48b2-b9a2-715791848cb6",
+					"fieldName": "Javascript",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Script",
+					"script": "file://script/neptune.Script/Javascript.js",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"ver": "24.2.19.1759",
+	"application": "bt_cover",
+	"title": "",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": true,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": true,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_horizon",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "file:///css.css",
+	"compiledCss": "file://script/undefined/undefined.script",
+	"header": "",
+	"manifest": "",
+	"globalScript": null,
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": true,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
+	"apis": [],
+	"package": "df1dd82c-3bcf-ee11-85f9-0022489e2ecd"
+}

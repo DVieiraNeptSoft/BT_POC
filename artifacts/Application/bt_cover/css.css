@@ -1,0 +1,123 @@
+.rowBackground {
+    // background: linear-gradient(rgb(78, 25, 173) 0%, rgb(78, 32, 175) 29.07%, rgb(106, 148, 211) 65.74%, rgb(255, 255, 255) 100%)!important;
+    background: linear-gradient(rgb(169, 194, 230) 1%, rgb(255, 255, 255) 100%) !important;
+}
+
+.hboxMargin {
+    margin-left: 140px;
+}
+
+.bt_cards {
+    display: flex;
+    border-radius: 12px;
+    box-shadow: 3px 10px 10px rgba(85, 20, 180, .2), inset 3px 3px 20px rgba(255, 110, 255, .1);
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+}
+
+.bt_cards:hover {
+    background: #fff !important;
+    box-shadow: 0 0 29px rgba(255, 110, 255, .6), inset 3px 3px 20px rgba(255, 110, 255, .1) !important;
+    text-decoration: none !important;
+    overflow: hidden;
+}
+
+.bt_cards_icon{
+    margin-bottom: 2rem;
+}
+
+.bt_cards_icon:hover {
+    transform: scale(1.2)!important;
+    transition: .5s ease-in-out!important;
+}
+
+.bt_FlexBoxBackground{
+    background: rgb(255,255,255);
+}
+
+.FlexBoxCorporateofficecateringservices {
+    background-color: #ffffff;
+    height: 500px;
+    font-size: 16px;
+    letter-spacing: 1.7px;
+    line-height: 1.25;
+    color: #000;
+    font-family: jlr_emeric_extralight;
+}
+
+.FlexBoxCorporateofficeFirst {
+    background-color: #e8e8e8;
+    height: 500px;
+    font-size: 16px;
+    letter-spacing: 1.7px;
+    line-height: 1.25;
+    color: #000;
+    font-family: jlr_emeric_extralight;
+}
+
+.FlexBoxCorporateofficeSecond {
+    background-color: #414042;
+    height: 150px;
+    font-size: 16px;
+    letter-spacing: 1.7px;
+    line-height: 1.25;
+    color: #fff;
+    font-family: jlr_emeric_extralight;
+}
+
+.FlexBoxPeopleplanetfriendlyservices {
+    background-color: #e8e8e8;
+    height: 500px;
+    font-size: 16px;
+    letter-spacing: 1.7px;
+    line-height: 1.25;
+    color: #000;
+    font-family: jlr_emeric_extralight;
+}
+
+$primary-color: #000;
+$secondary-color: #e8e8e8;
+$transparent-color: rgba(22, 92, 125, 255);
+$text-font: "jlr_emeric_extralight";
+$text-size: 25px;
+$title-size: 1rem;
+
+@mixin button-styles($background-color, $text-color, $border-color) {
+    background-color: $background-color;
+    color: $text-color;
+    border-color: $border-color;
+    border-radius: 50px;
+    width: 150px;
+}
+
+.ButtonGetintouch {
+    background-color: transparent;
+    color: #000;
+    border-color: #000;
+    border-radius: 0px;
+    width: 150px;
+    font-family: jlr_emeric_extralight;
+
+    &:hover {
+        background-color: white;
+        border-color: #000;
+        color: #000;
+
+    }
+}
+
+.imageMain {
+    margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+    .FlexBoxCorporateofficecateringservices {
+        background-color: rgba(22, 92, 125, 255);
+        height: 600px;
+    }
+
+    .FlexBoxKeytoyourcompanyculture {
+        background-color: rgba(242, 198, 207, 255);
+        // height: 600px;
+    }
+}
