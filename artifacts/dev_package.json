@@ -7,7 +7,7 @@
 	},
 	"name": "BT_POC",
 	"description": null,
-	"ver": "24.3.21.1441",
+	"ver": "24.3.21.1459",
 	"enableCICD": true,
 	"apps": [
 		{
